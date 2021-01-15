@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Penguin Hot Potatoes</title>
+    <link rel="shortcut icon" type="image/png" href="{{ url_for('static',    filename='unnamed.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static',    filename='penguinhotpotatoes.css') }}">
+<head>
+<body>
+    <header>
+        <div id="container">
+            <a href="#header_main" ><img id="potato" src="{{url_for('static', filename='hot_potato.png')}}" alt="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href='#services'>Our Services</a></li>
+                    <li><a href='#pricing'>Pricing</a></li>
+                    <li><a href='#about'>About</a></li>
+                    <li><a href='#support'>Support</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="header_main">
+        <h1 id="main">Penguin Hot Potato Delivery</h1>
+        <p id="info">Gourmet Fresh Hot Potatoes at your Doorstep Daily</p>
+        <img id="arctic" src="{{url_for('static', filename='arctic3.jpg')}}">
+    </div>
+
+    <section id="services">
+        <h1>Our Services</h1>
+
+    </section>
+
+    <section class="afterhead" id="pricing">
+        <h1>Pricing</h1>
+        <div class="main_price">
+            <div class="prices">
+                <p>Potato Novice</p>
+                <p class="money">$5<br><span>One time<span></p>
+                <p>A one time delivery</p>
+                <a href="#" class="btn">Select Plan</a>
+            </div>
+            <div class="prices">
+                <p>Casual Potato Eater</p>
+                <p class="money">$15<br><span>per month<span></p>
+                <p>A one time delivery</p>
+                <a href="#" class="btn">Select Plan</a>
+            </div>
+            <div class="prices">
+                <p>Potato Connoisseur</p>
+                <p class="money">$50<br><span>for a year<span></p>
+                <p>A one time delivery</p>
+                <a href="#" class="btn">Select Plan</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="afterhead" id="about">
+        <h1>About</h1>
+        <p>Our mission is to serve fresh potatoes all across Antarctica</p>
+    </section>
+
+    <section class="afterhead" id="support">
+        <h1>Support</h1>
+        <p>If you have any questions, you can reach us here:</p>
+        <h3>Phone Number</h3>
+        <h3>Address</h3>
+    </section>
+
+    <footer>
+        <li><a href="#https://www.google.com/search?q=privacy+policy&sxsrf=ALeKk03BSon4Su_j6IJc4XWfqqlYNTrkFQ:1610676235093&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi1z9zG7JzuAhXwmOAKHeblBWkQ_AUoAXoECBwQAw&biw=1745&bih=829">Privacy Policy</a></li>
+        <li><a href="#https://www.google.com/search?q=general+terms+and+conditions&sxsrf=ALeKk0367XEhHWW3CuoZ3WJNt9OMEJQ_vA:1610675462488&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjMsajW6ZzuAhUaEVkFHTpTAk4Q_AUoAXoECBsQAw&biw=1745&bih=829">Terms and Conditions</a></li>
+    </footer>
+<body>
+<html>
